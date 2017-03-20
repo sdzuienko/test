@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5
 {
-    class HelperClass
+    abstract class HelperClass
     {
+        public abstract void GetHelp();
     }
 }
